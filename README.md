@@ -1,5 +1,6 @@
 # voice-navigated-telemedicine-website
 
-<video src="video/Practo-project-demo (2).mp4" controls>
-    Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944
+
