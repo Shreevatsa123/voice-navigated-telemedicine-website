@@ -110,7 +110,8 @@ The research paper highlights **future improvements**, such as:
 ---
 
 ## 📹 Video Demonstration
-A **video showcasing the working project** has been uploaded to this repository. [**Click here to view**](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944) 
+
+A **video showcasing the working project** has been uploaded to this repository. https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944
 ---
 
 ## 🤝 Acknowledgments
