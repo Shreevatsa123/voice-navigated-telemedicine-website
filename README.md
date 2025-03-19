@@ -110,8 +110,11 @@ The research paper highlights **future improvements**, such as:
 
 ---
 
-## 📹 Video Demonstration
-A **video showcasing the working project** has been uploaded to this repository. [**Click here to view**](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944) (Insert GitHub video link).
+## 📹 Video Documentation
+
+Here is the video documentation of the project:
+
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
 
 ---
 
@@ -119,4 +122,5 @@ A **video showcasing the working project** has been uploaded to this repository.
 Special thanks to **Manipal Academy of Higher Education** for supporting this research.
 
 If you have any questions, feel free to reach out! 😊
+
 
