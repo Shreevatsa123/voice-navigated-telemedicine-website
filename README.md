@@ -22,7 +22,7 @@ I hope this README provides valuable insights into the project, its methodology,
 - Divya Rao  
 
 **Published In:** International Journal of Mathematical, Engineering, and Management Sciences (IJMEMS), Vol. 9, No. 4, 2024  
-[**Read the Full Paper**](https://www.ijmems.in)
+[**Read the Full Paper**](https://doi.org/10.33889/IJMEMS.2024.9.4.041)
 
 ### 🔹 Motivation
 People with **visual impairments** face significant challenges in interacting with digital platforms. Telemedicine websites, though revolutionary, often lack **accessibility features** tailored for visually impaired users.
