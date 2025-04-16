@@ -97,6 +97,7 @@ While the code is gone, the following assets provide evidence and insight into t
 
 1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](https://doi.org/10.33889/IJMEMS.2024.9.4.041)", which describes the concepts and findings in detail. This paper was a collaborative effort.
 2.  **Video Demonstration:** Click the image below to view a video showcasing the working system I built.
+
  [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
 
 I hope these resources provide valuable insights into the project's methodology, implementation details, and its positive impact on accessibility for visually impaired users exploring telemedicine platforms.
