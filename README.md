@@ -25,7 +25,11 @@ To address these challenges, I implemented a voice navigation system directly in
 
 The system was built using web technologies, leveraging the WebSpeech API for speech recognition and synthesis.
 
-![System Architecture/Concept Diagram](images/Methodology.png)
+<br>
+<p align="center">
+  <img src="images/Methodology.png" alt="System Architecture/Concept Diagram" width="600">
+</p>
+<br>
 
 ### Core Components:
 
@@ -47,7 +51,11 @@ The voice navigation system allowed users to perform various actions, including:
 * **Form Filling:** Voice-based input for forms (demonstrated on Sign Up page).
 * **Searching:** "Search [item/doctor]"
 
-![Screenshot of a Key Feature](images/read_content.png)
+<br>
+<p align="center">
+  <img src="images/read_content.png" alt="Screenshot of a Key Feature" width="600">
+</p>
+<br>
 
 ## Technology Stack
 
@@ -72,8 +80,15 @@ Usability testing was conducted with 15 visually impaired participants to evalua
 * Performance showed some variation depending on the browser used, likely due to differences in their underlying speech recognition engines/APIs.
 * Areas for improvement identified during testing included response time and initial ease of use, which improved as users became more familiar with the commands.
 
-![Chart Showing Accuracy Results](images/Table_and_accuracy.png)
-![Chart Showing Accuracy Results](images/pie_chart.png)
+<br>
+<p align="center">
+  <img src="images/Table_and_accuracy.png" alt="Chart Showing Accuracy Results (Bar)" width="600">
+</p>
+<br>
+<p align="center">
+  <img src="images/pie_chart.png" alt="Chart Showing Accuracy Results (Pie)" width="300">
+</p>
+<br>
 
 
 ## Available Assets
@@ -82,8 +97,13 @@ While the code is gone, the following assets provide evidence and insight into t
 
 1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](https://doi.org/10.33889/IJMEMS.2024.9.4.041)", which describes the concepts and findings in detail. This paper was a collaborative effort.
 2.  **Video Demonstration:** Click the image below to view a video showcasing the working system I built.
-
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
+    <br>
+    <p align="center">
+      <a href="https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944" target="_blank">
+        <img src="https://placehold.co/600x400/cccccc/ffffff?text=Click+to+Play+Video+Demo" alt="Video Demonstration Preview" width="600">
+      </a>
+    </p>
+    <br>
 
 I hope these resources provide valuable insights into the project's methodology, implementation details, and its positive impact on accessibility for visually impaired users exploring telemedicine platforms.
 
