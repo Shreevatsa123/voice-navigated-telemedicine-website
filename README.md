@@ -73,7 +73,7 @@ I am **deeply saddened** by this loss, as this project represented a significant
 While the code is gone, the following assets provide evidence and insight into the project:
 
 1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](link_to_your_paper.pdf)", which describes the concepts and findings in detail. This paper was a collaborative effort.
-2.  **Video Demonstration:** A video showcasing the working system I built is available [here]((https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)) (or describe where it is in the repository).
+2.  **Video Demonstration:** A video showcasing the working system I built is available [here](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944) (or describe where it is in the repository).
 
 I hope these resources provide valuable insights into the project's methodology, implementation details, and its positive impact on accessibility for visually impaired users exploring telemedicine platforms.
 
