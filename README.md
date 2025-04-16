@@ -72,8 +72,8 @@ Usability testing was conducted with 15 visually impaired participants to evalua
 * Performance showed some variation depending on the browser used, likely due to differences in their underlying speech recognition engines/APIs.
 * Areas for improvement identified during testing included response time and initial ease of use, which improved as users became more familiar with the commands.
 
-![Chart Showing Accuracy Results](https://placehold.co/600x300/cccccc/ffffff?text=Placeholder:+Accuracy+Results+Chart)
-*(Optional: Add a chart visualizing the accuracy results, similar to Fig 2 or 3 in the paper)*
+![Chart Showing Accuracy Results](images/Table_and_accuracy.png)
+
 
 ## Available Assets
 
