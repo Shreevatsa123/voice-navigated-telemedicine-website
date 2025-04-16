@@ -1,5 +1,11 @@
 # Enhancing Telemedicine Website Accessibility with Voice Navigation
 
+## **Disclaimer: Lost Source Code**
+
+Unfortunately, the source code for this project has been **permanently lost** due to an accidental deletion during a system cleanup. At the time, my proficiency with version control systems like Git and GitHub was limited, and backups were not adequately maintained. Recovery efforts were unsuccessful.
+
+I am **deeply saddened** by this loss, as this project represented a significant effort and achievement in accessible web design. The primary proof of the project's existence and functionality are the associated research paper and the video demonstration linked below.
+
 ## Overview
 
 This project focused on improving the accessibility and user experience of telemedicine websites, specifically for users with visual impairments. I developed and integrated a voice navigation system that allows users to interact with the website using spoken commands and receive audio feedback, eliminating the need for traditional input devices like keyboards and mice.
@@ -62,18 +68,13 @@ Usability testing was conducted with 15 visually impaired participants to evalua
 * Performance showed some variation depending on the browser used, likely due to differences in their underlying speech recognition engines/APIs.
 * Areas for improvement identified during testing included response time and initial ease of use, which improved as users became more familiar with the commands.
 
-## **Disclaimer: Lost Source Code**
-
-Unfortunately, the source code for this project has been **permanently lost** due to an accidental deletion during a system cleanup. At the time, my proficiency with version control systems like Git and GitHub was limited, and backups were not adequately maintained. Recovery efforts were unsuccessful.
-
-I am **deeply saddened** by this loss, as this project represented a significant effort and achievement in accessible web design.
-
 ## Available Assets
 
 While the code is gone, the following assets provide evidence and insight into the project:
 
 1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](link_to_your_paper.pdf)", which describes the concepts and findings in detail. This paper was a collaborative effort.
-2.  **Video Demonstration:** A video showcasing the working system I built is available [here](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944) (or describe where it is in the repository).
+2.  **Video Demonstration:** Click the image below to view a video showcasing the working system I built.
+    [![Video Demonstration Preview](https://placehold.co/600x400/cccccc/ffffff?text=Click+to+Play+Video+Demo)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
 
 I hope these resources provide valuable insights into the project's methodology, implementation details, and its positive impact on accessibility for visually impaired users exploring telemedicine platforms.
 
