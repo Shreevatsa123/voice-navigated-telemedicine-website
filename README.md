@@ -73,6 +73,7 @@ Usability testing was conducted with 15 visually impaired participants to evalua
 * Areas for improvement identified during testing included response time and initial ease of use, which improved as users became more familiar with the commands.
 
 ![Chart Showing Accuracy Results](images/Table_and_accuracy.png)
+![Chart Showing Accuracy Results](images/pie_chart.png)
 
 
 ## Available Assets
