@@ -1,126 +1,80 @@
-# Enhancing Accessibility of Telemedicine Websites with Voice Navigation
+# Enhancing Telemedicine Website Accessibility with Voice Navigation
 
-## Disclaimer
+## Overview
 
-🚨 **Disclaimer:**
+This project focused on improving the accessibility and user experience of telemedicine websites, specifically for users with visual impairments. I developed and integrated a voice navigation system that allows users to interact with the website using spoken commands and receive audio feedback, eliminating the need for traditional input devices like keyboards and mice.
 
-Unfortunately, the source code for this project has been **permanently lost** due to accidental deletion during a system cleanup. At the time, I was not very proficient with Git and GitHub, and I failed to back up the repository. By the time I realized my mistake, it was too late to recover the files.
+My goal was to create a more inclusive digital healthcare experience, aligning with universal design principles and addressing the challenges faced by visually impaired individuals when navigating complex web interfaces.
 
-I am **deeply saddened** by this loss, as this project was a significant achievement. The **only proof** of its existence is the **research paper** based on the project and a **video demonstration** showcasing the working system, which has been uploaded to this GitHub repository.
+## Problem Statement
 
-I hope this README provides valuable insights into the project, its methodology, and its impact on accessibility for visually impaired users.
+Visually impaired users often encounter significant barriers when accessing web-based services, including telemedicine platforms. Standard navigation methods relying on visual cues, mouse interactions, and keyboard inputs can be difficult or impossible to use. This limits their ability to independently access essential healthcare services like scheduling appointments, consulting doctors, or retrieving medical information online.
 
----
+## My Solution: Voice Navigation System
 
-## 📌 Project Overview
+To address these challenges, I implemented a voice navigation system directly integrated into the web browser. This system enables users to:
 
-**Title:** Enhancing the Experience and Accessibility of Users with Disabilities by Integrating Voice Navigation into a Telemedicine Website
+1.  **Control the website using voice commands:** Users can speak predefined commands to perform actions.
+2.  **Receive audio feedback:** The system provides spoken responses and reads out content, confirming actions and providing necessary information.
 
-**Authors:**
-- Sucheta V. Kolekar  
-- Shreevasta Agnihotri  
-- Divya Rao  
+The system was built using web technologies, leveraging the WebSpeech API for speech recognition and synthesis.
 
-**Published In:** International Journal of Mathematical, Engineering, and Management Sciences (IJMEMS), Vol. 9, No. 4, 2024  
-[**Read the Full Paper**](https://doi.org/10.33889/IJMEMS.2024.9.4.041)
+### Core Components:
 
-### 🔹 Motivation
-People with **visual impairments** face significant challenges in interacting with digital platforms. Telemedicine websites, though revolutionary, often lack **accessibility features** tailored for visually impaired users.
+* **Speech Recognition Engine:** Interprets user voice commands using deep learning models and acoustic modeling (mapping sounds to phonetic units).
+* **Speech Grammar:** Defines the specific set of English commands the system understands (e.g., "Scroll Up", "Zoom In", "Go to Sign Up page").
+* **Language Model:** Predicts word sequences and understands context to improve recognition accuracy, especially for homophones.
+* **Decoding:** Uses algorithms like the Viterbi algorithm to determine the most likely sequence of words spoken by the user.
+* **Speech Synthesis Engine:** Generates computerised voice output to read website content or provide feedback to the user.
 
-To address this, we **integrated voice navigation** into a telemedicine web platform, allowing users to:
-- Navigate the site using **voice commands** 📢
-- Receive **audio feedback** 🎧
-- Eliminate reliance on **keyboard and mouse** ⌨️
+## Key Features Implemented
 
-### 🔹 Core Technologies
-The project implemented:
-- **Speech Recognition Engine** 🎙️ (Deep Learning-based)
-- **Speech Synthesis Engine** 🔊
-- **Acoustic Modeling** 🎼
-- **Language Processing (NLP)** 🧠
-- **Viterbi Algorithm for Decoding** 🔄
+The voice navigation system allowed users to perform various actions, including:
 
----
+* **Scrolling:** "Scroll Up", "Scroll Down"
+* **Zooming & Font Size:** "Zoom In", "Zoom Out", "Increase Font Size", "Decrease Font Size", "Default Window Size"
+* **Page Navigation:** "Go to [page name]" (e.g., "Go to the Video Consult page", "Go to homepage")
+* **Content Interaction:** "Read Content", "Find [text]"
+* **General Navigation:** "Go Up", "Go Down", "Go Left", "Go Right", "Select"
+* **Form Filling:** Voice-based input for forms (demonstrated on Sign Up page).
+* **Searching:** "Search [item/doctor]"
 
-## 🛠️ Features Implemented
+## Technology Stack
 
-### **1️⃣ Speech Grammar Module**
-Defines a list of **English commands** that the system recognizes and interprets.
+* **Frontend:** JavaScript
+* **Web APIs:** WebSpeech API (SpeechGrammar, SpeechRecognition, SpeechSynthesis)
+* **Speech Recognition Core:** Deep Learning Models (e.g., DNNs, HMMs, RNNs), Acoustic Modeling, Language Modeling (N-grams, RNNs), Viterbi Algorithm for decoding.
 
-### **2️⃣ Speech Recognition Module**
-- Captures voice inputs and converts them into **text commands**.
-- Uses **deep neural networks** for pattern recognition.
+## Evaluation and Results
 
-📌 *Image Placeholder: Insert image showing speech recognition workflow from the research paper.*
+Usability testing was conducted with 15 visually impaired participants to evaluate the system's effectiveness across different browsers (Chrome, Edge, Firefox, etc.). Key metrics included:
 
-### **3️⃣ Speech Synthesis Module**
-- Converts **text responses into speech**, providing **audio feedback**.
-- Uses **speech grammar rules** to enhance clarity.
+* **Task Completion Rate / Accuracy:** Measured how often commands were correctly executed. Accuracy varied by command length (e.g., 2-word commands ~82%, 3-word ~73%, 4/5-word ~61%).
+* **Error Rate:** Measured incorrect command executions.
+* **Time to Complete Task:** Average time taken for each command.
+* **User Satisfaction:** Assessed via questionnaires (rated on a 1-10 scale).
 
-📌 *Image Placeholder: Insert diagram explaining speech synthesis.*
+**Key Findings:**
 
-### **4️⃣ Key Voice Commands Supported**
-| Command | Function |
-|---------|----------|
-| "Scroll Up" | Moves page up |
-| "Scroll Down" | Moves page down |
-| "Zoom In" | Increases text size |
-| "Zoom Out" | Decreases text size |
-| "Go to Homepage" | Navigates to home |
-| "Read Content" | Reads page content aloud |
+* The voice navigation system significantly improved users' ability to access information and navigate the telemedicine website independently.
+* Users reported high levels of satisfaction (average ratings mostly between 7.5 and 8.5 out of 10).
+* Accuracy was generally good, though longer commands had slightly lower success rates.
+* Performance showed some variation depending on the browser used, likely due to differences in their underlying speech recognition engines/APIs.
+* Areas for improvement identified during testing included response time and initial ease of use, which improved as users became more familiar with the commands.
 
-📌 *Image Placeholder: Table showing command accuracy and response time.*
+## **Disclaimer: Lost Source Code**
 
-### **5️⃣ Usability Evaluation**
-- Conducted user testing with **15 visually impaired participants**.
-- Measured **accuracy, error rate, and response time**.
+Unfortunately, the source code for this project has been **permanently lost** due to an accidental deletion during a system cleanup. At the time, my proficiency with version control systems like Git and GitHub was limited, and backups were not adequately maintained. Recovery efforts were unsuccessful.
 
-📌 *Image Placeholder: Graph comparing performance across different browsers.*
+I am **deeply saddened** by this loss, as this project represented a significant effort and achievement in accessible web design.
 
-### **6️⃣ Cross-Browser Compatibility**
-The system was tested on:
-✅ Google Chrome  
-✅ Mozilla Firefox  
-✅ Microsoft Edge  
-✅ Opera  
-❌ Internet Explorer (Not Supported)  
+## Available Assets
 
-📌 *Image Placeholder: Pie chart showing accuracy comparison.*
+While the code is gone, the following assets provide evidence and insight into the project:
 
----
+1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](link_to_your_paper.pdf)", which describes the concepts and findings in detail. This paper was a collaborative effort.
+2.  **Video Demonstration:** A video showcasing the working system I built is available [here]([link_to_your_video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)) (or describe where it is in the repository).
 
-## 📊 Results and Analysis
+I hope these resources provide valuable insights into the project's methodology, implementation details, and its positive impact on accessibility for visually impaired users exploring telemedicine platforms.
 
-- **Average Accuracy:** 81.9%
-- **Error Rate:** 18.1%
-- **Response Time Optimization Needed**
-- **Positive Feedback from Users & Experts**
-
-📌 *Image Placeholder: Bar chart summarizing evaluation metrics.*
-
----
-
-## 🚀 Future Enhancements
-The research paper highlights **future improvements**, such as:
-- **Faster Response Time** 🕒
-- **More Commands for Navigation** 🔗
-- **Multi-Language Support** 🌎
-- **Voice-Based Authentication** 🔒
-
-
----
-
-## 📹 Video Documentation
-
-Here is the video documentation of the project:
-
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
-
----
-
-## 🤝 Acknowledgments
-Special thanks to **Manipal Academy of Higher Education** for supporting this research.
-
-If you have any questions, feel free to reach out! 😊
-
-
+*(Project based on the research paper: Kolekar, S. V., Agnihotri, S., & Rao, D. (2024). Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website. International Journal of Mathematical, Engineering and Management Sciences, 9(4), 801-820.)*
