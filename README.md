@@ -47,7 +47,7 @@ The voice navigation system allowed users to perform various actions, including:
 * **Form Filling:** Voice-based input for forms (demonstrated on Sign Up page).
 * **Searching:** "Search [item/doctor]"
 
-![Screenshot of a Key Feature](images/Screenshot 2025-04-16 183724.png)
+![Screenshot of a Key Feature](image/read_content.png)
 
 ## Technology Stack
 
