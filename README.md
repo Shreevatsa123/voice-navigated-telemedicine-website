@@ -25,8 +25,7 @@ To address these challenges, I implemented a voice navigation system directly in
 
 The system was built using web technologies, leveraging the WebSpeech API for speech recognition and synthesis.
 
-![System Architecture/Concept Diagram](https://placehold.co/600x300/cccccc/ffffff?text=Placeholder:+System+Concept+Diagram)
-*(Optional: Add a diagram illustrating the voice navigation concept or architecture)*
+![System Architecture/Concept Diagram](images/Methodology.png)
 
 ### Core Components:
 
