@@ -47,8 +47,7 @@ The voice navigation system allowed users to perform various actions, including:
 * **Form Filling:** Voice-based input for forms (demonstrated on Sign Up page).
 * **Searching:** "Search [item/doctor]"
 
-![Screenshot of a Key Feature](https://placehold.co/600x400/cccccc/ffffff?text=Placeholder:+Screenshot+of+Feature+in+Action)
-*(Optional: Add a screenshot from the video demo showing a feature like voice scrolling or form filling)*
+![Screenshot of a Key Feature](images/)
 
 ## Technology Stack
 
