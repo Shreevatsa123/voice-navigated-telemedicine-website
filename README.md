@@ -80,7 +80,7 @@ Usability testing was conducted with 15 visually impaired participants to evalua
 
 While the code is gone, the following assets provide evidence and insight into the project:
 
-1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](link_to_your_paper.pdf)", which describes the concepts and findings in detail. This paper was a collaborative effort.
+1.  **Research Paper:** The detailed research paper, "[Enhancing the Experience and Accessibility of Users with Disability by Integrating Voice Navigation into a Telemedicine Website](https://doi.org/10.33889/IJMEMS.2024.9.4.041)", which describes the concepts and findings in detail. This paper was a collaborative effort.
 2.  **Video Demonstration:** Click the image below to view a video showcasing the working system I built.
 
 [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/user-attachments/assets/8451c58d-498e-445e-bf8e-1ba8b09fd944)
