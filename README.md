@@ -4,7 +4,7 @@
 
 Unfortunately, the source code for this project has been **permanently lost** due to an accidental deletion during a system cleanup. At the time, my proficiency with version control systems like Git and GitHub was limited, and backups were not adequately maintained. Recovery efforts were unsuccessful.
 
-I am **deeply saddened** by this loss, as this project represented a significant effort and achievement in accessible web design. The primary proof of the project's existence and functionality are the associated research paper and the video demonstration linked below.
+I am **deeply saddened** by this loss, as this project represented a significant effort and achievement in accessible web design. The primary proof of the project's existence and functionality are the associated **research paper** and the **video demonstration** linked below.
 
 ## Overview
 
